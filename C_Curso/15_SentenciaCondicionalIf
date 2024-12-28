@@ -1,0 +1,50 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int num1 = 10;
+    int num2 = 20;
+
+
+    //Ejemplo 1
+    if (num1 > num2) {
+        printf ("El numero %d es mayor que %d", num1, num2);
+    } else if (num2 > num1){
+        printf ("El numero %d es mayor que %d", num2, num1);
+    }
+    else{
+        printf("Los dos numeros son iguales");
+    }
+
+printf("\n---------------------------\n");
+    //Ejemplo 2
+    int num3 = 30;
+    if (num1 > num2 && num1 > num3) {
+        printf ("%d es el numero mayor",num1);
+    } else if (num2 > num1 && num2 > num3){
+        printf ("%d es el numero mayor",num2);
+    } else {
+        printf ("%d es el numero mayor", num3);
+    }
+    printf("\n---------------------------\n");
+    //Ejemplo 3
+    if (3<1 || 6>5) {
+
+        printf("Verdadero");
+    }
+
+     printf("\n---------------------------\n");
+    //Ejemplo 4
+    if (1 != 19) {
+
+        printf("Verdadero");
+    }
+
+
+
+    return 0;
+}
+
+
+

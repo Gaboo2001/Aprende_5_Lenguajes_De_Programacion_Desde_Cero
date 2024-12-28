@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    const int NUM = 2;
+    printf("%d\n", NUM);
+    return 0;
+
+}
+

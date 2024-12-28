@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+
+/*
+//Array con enteros
+  int edades[] = {23,24,25,26,27,38,44,88};
+  edades [1] = 100; //Aqui le asisgno un nuevo valor a la pocision 1
+  printf("%d", edades[3]); //Se imprime la posicion 3 en este caso 26
+  printf("\n%d", edades[1]);
+
+*/
+
+/*
+//Array con decimales float o dobles
+  double edades[] = {23.4,24.5,25.7,26.6,27.2,38.5,44.2,88.66};
+  printf("%f", edades[1]); //Se imprime la posicion 1
+
+*/
+  char letra [] = {'a','b','c'};
+  printf ("%c", letra[2]);
+    return 0;
+}
+
+

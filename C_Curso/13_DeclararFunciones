@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+
+HolaMundo(); //Aqui llamamos la funcion
+char nom [] = "GABY";
+int eda = 23;
+Saludo(nom,eda);
+Saludo("Gabriel", 32); //ESTO ES LO IDEAL AL USAR LAS FUNCIONES PERO TAMBIEN PODEMOS AGRGAR EN CADA VARIEBALE DIFERENTE COMO EN EL CASO ANTERIOR
+    return 0;
+}
+
+
+
+//Creamos la funcion despues del main
+void HolaMundo () {
+
+printf ("Hola Gabo \n");
+
+}
+
+void Saludo(char nombre[], int edad) {
+
+printf ("Te llamas  %s y tienes %d años \n", nombre, edad);
+
+}
+
+

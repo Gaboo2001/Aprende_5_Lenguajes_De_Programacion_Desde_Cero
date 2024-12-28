@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+//              printf("\n---------------------------\n");
+int main()
+{
+
+    //Escribiendo pero se modifica el archivo actual se ssobre escribe
+    /*
+    FILE *punteroArchivo = fopen ("alumnos.txt", "w");
+    fprintf(punteroArchivo, "Gabo, 100 \n");
+    fprintf(punteroArchivo, "Nili, 100 \n");
+    */
+
+    //Aqui si añadimos algo sin sobre escribir el archivo actual solo se cambia la letra que es A, W y R en minusculas
+    FILE *punteroArchivo = fopen ("alumnos.txt", "a");
+    fprintf(punteroArchivo, "Laura, 90 \n");
+
+
+
+
+    fclose(punteroArchivo);
+    return 0;
+}
+
+
+

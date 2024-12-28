@@ -1,0 +1,12 @@
+console.log("Hola Gabo \nHola Mundo");
+
+console.log ("Hola a todos \"Menos a ti.....\"");
+
+
+console.log ('Hola "Aqui se ocupan comillas dobles" porque tenemos comillas simples al inicio');
+
+
+
+let a = 6;
+
+console.log(a);

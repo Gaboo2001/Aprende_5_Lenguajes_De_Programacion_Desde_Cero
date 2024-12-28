@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+   int numero = 10;
+   float numeroDecimal = 2.5;
+   double numeroDecimal2 = 5534343.56;
+   char letra = 'A';
+   char frase [] = "Hola";
+
+
+    return 0;
+
+}

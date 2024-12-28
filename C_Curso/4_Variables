@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    printf ("Me llamo Gabriel y tengo 23 años. \n");
+    printf ("Tengo 23 años y me llamo Gabriel.\n");
+
+
+    //Asignando variables
+
+    char nombre[] = "Gabo";
+    int edad = 25;
+    int edadSiguente = edad+1;
+     printf ("Me llamo %s y tengo %d años. \n", nombre, edad);
+     printf ("Tengo %d años y me llamo %s.\n", edad,nombre);
+     //Tambien se podria asignar la misma variable edad aqui y solo asignarle edad+1
+     //quedaria asi (edad= edad+1) solo asiganamos el mismo valor
+     printf ("El siguiente año  tendre %d años. \n", edadSiguente);
+
+     printf ("Otro ejemplo. \n");
+
+    int ano = 2024;
+     printf ("Este año es  %d. \n", ano);
+     ano = ano + 1;
+     printf ("El año que sigue es  %d. \n", ano);
+
+    return 0;
+
+}
+

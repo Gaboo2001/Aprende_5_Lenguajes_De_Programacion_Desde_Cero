@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+//              printf("\n---------------------------\n");
+int main()
+{
+    char linea [255];
+    FILE *punteroArchivo = fopen ("alumnos.txt", "r");
+   fgets(linea, 255, punteroArchivo);
+   printf("%s", linea);
+   fgets(linea, 255, punteroArchivo);
+   printf("%s", linea);
+   fgets(linea, 255, punteroArchivo);
+   printf("%s", linea);
+
+
+    fclose(punteroArchivo);
+    return 0;
+}
+
+
+

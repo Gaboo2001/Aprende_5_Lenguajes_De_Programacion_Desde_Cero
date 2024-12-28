@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    double numero = 10.123456789;
+    printf("Mi numero es %.9f \n",numero); //EL .9 se pone del numero de digitos que queremos mostar si solo queremos mostar 6 seria ".6f"
+
+    printf("Aqui se acaba el \"Programa\""); //Aqui se pone las \ porque si se quitan se interpreta como si fuera un string
+
+    char letra ='A';
+    printf ("\nMi letra es %c \n",letra);
+
+    return 0;
+
+}

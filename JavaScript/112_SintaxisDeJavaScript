@@ -1,0 +1,6 @@
+let variable = 1;
+let variableDeTexto =
+        "Esto es una variable de texto larga";
+console.log (variableDeTexto);
+
+

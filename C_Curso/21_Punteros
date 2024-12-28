@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+//              printf("\n---------------------------\n");
+int main()
+{
+    int entero = 5;
+    int *pentero = &entero; //Declarando el puntero (se debe de poner * antes de la variable)
+
+
+    double decimal = 10.2;
+    double *pdecimal = &decimal;
+
+    char letra = 'A';
+    char *pletra = &letra;
+
+    printf ("%p", &entero);
+
+    return 0;
+}
+
+
+

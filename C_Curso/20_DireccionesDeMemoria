@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+//              printf("\n---------------------------\n");
+int main()
+{
+    int entero = 5;
+    double decimal = 10.2;
+    char letra = 'A';
+    printf("%p\n", &entero);
+    printf("%p\n", &decimal);
+    printf("%p\n", &letra);
+
+    return 0;
+}

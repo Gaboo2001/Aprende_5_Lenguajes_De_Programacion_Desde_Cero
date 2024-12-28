@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+//La estrucura se define antes del main
+struct alumnos {
+    char nombre [30];
+    int edad;
+    double calificacion;
+
+};
+
+int main()
+{
+    struct alumnos alumno1;
+    alumno1.edad =21;
+    alumno1.calificacion = 98.5;
+    strcpy(alumno1.nombre, "Gabo");
+
+    printf("%d", alumno1.edad );
+    printf("\n%f", alumno1.calificacion );
+    printf("\n%s", alumno1.nombre );
+
+
+    return 0;
+}
+
+

@@ -1,0 +1,18 @@
+let texto = "HOLA MUNDO";
+console.log(typeof texto);
+
+let numero = 5e-2;
+console.log (numero);
+console.log(typeof numero);
+
+let valorBooleano = true;
+console.log(typeof valorBooleano);
+
+let variable;
+console.log(typeof variable);
+variable = 2;
+console.log(typeof variable);
+
+
+let persona = {nombre: "Gabo", edad: 24, aprobado: true};
+console.log(typeof persona)

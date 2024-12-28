@@ -1,0 +1,41 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+  /*
+    double edad;
+    printf("Introduce tu edad: ");
+    scanf ("%d", &edad);
+    printf ("Tienes %d años", edad);
+
+ double dinero;
+    printf("\nIntroduce tu dinero: ");
+    scanf ("%lf", &dinero);
+    printf ("Tienes %f dolares", dinero);
+
+    char letra;
+    printf("Introduce una letra: ");
+    scanf ("%c", &letra);
+    printf ("La letra es %c", letra);
+
+*/
+
+/*
+char nombre [100];
+printf("Ingresa tu nombre: ");
+scanf("%s", nombre); //CON SCANF SOLO AGARRA LA PRIMERA PARTE HASTA QUE EXISTA UN ESPACIO
+printf("Tu nombre es %s", nombre);
+
+
+*/
+char nombre [100];
+printf("Ingresa tu nombre: ");
+fgets(nombre, 100, stdin); //el fgets es para que tambien obtenga el string despues del espacio
+printf("Tu nombre es %s", nombre);
+    return 0;
+
+
+}
+
+
