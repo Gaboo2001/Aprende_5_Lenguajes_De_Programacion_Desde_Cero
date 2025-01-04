@@ -1,0 +1,15 @@
+console.log("Inicio\n")
+
+function Media (num1, num2) {
+    console.log ("La funcion comineza");
+    let suma = 0;
+    for(let i = 0; i<arguments.length; i++){
+        suma += arguments[i];
+    }
+    console.log("La funcion finaliza");
+    return suma / arguments.length;
+}
+let valor = Media(4,2,10,16,2,0,19,30);
+Media(4,2,10,16,2,0,19,30);
+
+console.log("\nFin")

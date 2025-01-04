@@ -1,0 +1,8 @@
+console.log("Inicio\n")
+
+let nombre = "Me llamo Gabo";
+console.log(nombre[nombre.length - 2]);
+
+
+
+console.log("\nFin")

@@ -1,0 +1,19 @@
+console.log("Inicio\n")
+
+class Alumno {
+    constructor(nombre, edad, nota) {
+      this.nombre = nombre;
+      this.edad = edad;
+      this.nota = nota;
+
+    }
+}
+let alumno1 = new Alumno ("Tokio",26,8.4);
+let alumno2 = new Alumno ("Berlin",26,7.4);
+
+console.log(alumno1)
+console.log(alumno2)
+console.log(alumno1.nombre)
+console.log(alumno2.nombre)
+
+console.log("\nFin")

@@ -1,0 +1,19 @@
+console.log("Inicio\n")
+
+let nombres = ["Randy","Cena","Undertaker"];
+let nota = [5.6, 9.9, 10];
+let arreglo = ["Hola", 5, true, [4,5]]; //Podemos combinar elementos de diferentes tipos en un arreglo
+
+console.log(nombres [2]);
+nombres[1] = "Jonh cena";
+console.log(nombres);
+
+nombres[3] = "Triple H";
+console.log(nombres);
+
+console.log("-------------------------------------------------");
+let alumnos = [["Gabo", "Jesica", "Jeimy"],[10,9,8]];
+console.log(alumnos [0][2]);
+
+
+console.log("\nFin")

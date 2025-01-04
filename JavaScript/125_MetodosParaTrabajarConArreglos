@@ -1,0 +1,17 @@
+console.log("Inicio\n")
+
+let nombres = ["Randy Orton"," John Cena","Undertaker", "Seth Rollings"];
+//let ultimoNombre = nombres.pop();
+//let ultimoNombre = nombres.shift();
+let ultimoNombre = nombres.push("Roman Reings");
+console.log(nombres);
+console.log(ultimoNombre);
+
+nombres.unshift("Seth Rollings");
+console.log(nombres);
+console.log(nombres.sort());
+
+console.log(nombres.reverse());
+
+
+console.log("\nFin")

@@ -1,0 +1,20 @@
+console.log("Inicio\n")
+
+for (let i = 1; i <= 10; i++){
+    console.log(i);
+}
+console.log (i); //Me va a salir que es indefinida porque la varaible solo se declara dentro del bucle
+
+
+for (var i = 1; i <= 10; i++){
+    console.log(i);
+}
+console.log (i);//Aqui ya va a slair que es global pprique la varibale "var" la hace globar
+
+let suma = 0;
+for (var i = 1; i<= 10; i++){
+    suma = suma + i;
+    console.log("El resultado de la suma en la iteracion " + i + " es " + suma);
+}
+
+console.log("\nFin")

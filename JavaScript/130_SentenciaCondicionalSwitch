@@ -1,0 +1,52 @@
+console.log("Inicio\n")
+
+let dia = 6;
+
+switch (dia) {
+    case 1:
+        console.log ("El primer dia es lunes");
+        break;
+    case 2:
+        console.log ("El Segundo dia es martes");
+        break;
+    case 3:
+        console.log ("El tercer dia es miercoles");
+        break;
+    case 4:
+        console.log ("El cuarto dia es jueves");
+        break;
+    case 5:
+        console.log ("El quinto dia es viernes");
+        break;
+    case 6:
+        console.log ("El sexto dia es sabado");
+        break;
+    case 7:
+        console.log ("El septimo dia es domingo");
+        break;
+    default:
+        console.log ("Dia incorrecto");
+
+    }
+
+ let diaSemana = "marssssssssss";
+ switch(diaSemana){
+    case "lunes":
+        console.log("Hoy es lunes");
+        break;
+    case "martes":
+        console.log("Hoy es martes");
+        break;
+    case "miercoles":
+        console.log("Hoy es miercoles");
+        break;
+    case "jueves":
+        console.log("Hoy es jueves");
+        break;
+    default:
+        console.log("El dia no esta definido ");
+
+ }
+
+
+console.log("\nFin")

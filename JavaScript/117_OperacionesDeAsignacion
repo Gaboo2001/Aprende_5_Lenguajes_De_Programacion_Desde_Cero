@@ -1,0 +1,20 @@
+
+console.log("Inicio\n")
+
+let a = 59;
+a--;
+console.log(a);
+
+let b = 59;
+b++;
+console.log(b);
+
+let c = 60;
+c+=5;
+console.log(c);
+
+let d = 2;
+d*=5;
+console.log(d);
+
+console.log("\nFin")

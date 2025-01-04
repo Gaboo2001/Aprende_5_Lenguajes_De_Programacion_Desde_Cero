@@ -1,0 +1,28 @@
+console.log("Inicio\n")
+
+let texto = "Estamos programando en Java Script programando";
+console.log(texto.slice(0,7));
+
+console.log(texto.substring(0,5));
+
+console.log(texto.replace("programando", "estudiando"));
+
+console.log(texto.replaceAll("programando", "estudiando"));
+
+console.log(texto.toUpperCase());
+
+console.log(texto.toLowerCase());
+
+console.log("HOLA". concat(" ", texto));
+
+
+console.log("--------------------------------------------------------------------------");
+
+let texto1 = "                               Estamos programando en Java Script programando                   ";
+console.log(texto1);
+console.log(texto1.trimStart());
+console.log(texto1.trimEnd());
+console.log(texto1.trim());//Este elimina los espacios del inicio y del final.
+
+
+console.log("\nFin")

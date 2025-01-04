@@ -1,0 +1,26 @@
+console.log("Inicio\n")
+
+class Alumno {
+    constructor(nombre, edad, nota) {
+      this.nombre = nombre;
+      this.edad = edad;
+      this.nota = nota;
+
+    }
+Aprobado () {
+    if (this.nota >= 5) {
+       return true
+    } else {
+        return false
+    }
+}
+
+}
+let alumno1 = new Alumno ("Tokio",26,8.4);
+let alumno2 = new Alumno ("Berlin",26,3.4);
+
+console.log (alumno1.Aprobado());
+console.log (alumno2.Aprobado());
+
+
+console.log("\nFin")

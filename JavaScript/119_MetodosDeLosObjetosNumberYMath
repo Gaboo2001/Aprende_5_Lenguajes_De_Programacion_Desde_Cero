@@ -1,0 +1,36 @@
+
+
+
+console.log("Inicio\n")
+
+console.log(Number.isInteger(-5));
+console.log(Number.isInteger("HOLA"));
+console.log(Number.isSafeInteger(43534634636634436434646));//El safe integer es solo para numeros que estan dentro de los 64 bits
+console.log(Number.isSafeInteger((-2) ** 53 + 1));
+console.log(Number.parseFloat("12.445"));
+console.log(Number.parseInt("12.445"));
+console.log("---------------------------");
+Math.PI;
+Math.E;
+Math.SQRT2;
+Math.SQRT1_2;
+
+
+console.log(Math.round(6.3));
+
+console.log(Math.ceil(-6.3));
+
+console.log(Math.floor(6.7));
+
+console.log(Math.trunc(-6.7));
+
+//Aqui tambien podemos ocupar con Math. sign, abs, pow, sqrt, log, log10, random
+
+console.log("---------------------------");
+
+console.log(Math.min(1,5,6,7,10));
+console.log(Math.max(1,5,6,7,10));
+
+
+console.log("\nFin")
+

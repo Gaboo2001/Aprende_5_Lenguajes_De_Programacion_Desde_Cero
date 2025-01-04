@@ -1,0 +1,24 @@
+console.log("Inicio\n")
+
+class Animal {
+    Comer () {
+        console.log("El annimal come");
+    }
+    Dormir() {
+        console.log("El annimal duerme");
+    }
+}
+
+class Perro extends Animal {
+    Ladrar () {
+       console.log ("El perro ladra");
+    }
+}
+
+let animal1 = new Animal();
+let perro1 = new Perro();
+
+
+
+
+console.log("\nFin")

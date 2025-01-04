@@ -1,0 +1,12 @@
+console.log("Inicio\n")
+
+let texto = "Estamos programando en Python";
+console.log(texto.search("am"));
+
+console.log(texto.includes("Python"));
+
+console.log(texto.startsWith("Python"));
+
+console.log(texto.endsWith("Python"));
+
+console.log("\nFin")

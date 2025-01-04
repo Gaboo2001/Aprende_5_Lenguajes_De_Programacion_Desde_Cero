@@ -1,0 +1,22 @@
+console.log("Inicio\n")
+
+function saludar(nombre) {
+    console.log ("Hola " + nombre);
+}
+
+saludar("Tokio");
+saludar("Rio");
+saludar("Lisboa");
+
+
+
+function saludar1(nombre,edad) {
+    console.log ("Hola " + nombre + " Tienes " + edad + " años");
+}
+
+saludar1("Tokio",20);
+saludar1("Rio",22);
+saludar1("Lisboa",33);
+
+
+console.log("\nFin")

@@ -1,0 +1,16 @@
+
+
+
+
+console.log("Inicio\n")
+
+let nombre = "Gabo";
+let edad = 21;
+let lenguaje = "Java Script"
+
+let texto = `Me llamo ${nombre} tengo ${edad} años y estoy aprendiendo ${lenguaje}`; //Para concatenar asi se necesita usar comillas simples
+// (``) curvas
+
+
+console.log(texto);
+console.log("\nFin")

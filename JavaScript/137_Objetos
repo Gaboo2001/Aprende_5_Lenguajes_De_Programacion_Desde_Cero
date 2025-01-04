@@ -1,0 +1,27 @@
+console.log("Inicio\n")
+let alumno = {nombre: "GABO", edad: 23, calificacion: 100};
+console.log(typeof alumno)
+console.log (alumno.nombre);
+console.log (alumno.edad);
+
+alumno.calificacion = 90; //AQUI MODIFICO LA CALIFICACION
+console.log(alumno.calificacion);
+
+alumno.pais = "mexico"; ///estoy añadiendo una nueva propiedad
+console.log(alumno);
+
+
+let alumno1 = {nombre1: "Berlin", edad1: 23, calificacion1: 80,
+    resumen: function(){
+        return "El alumno se llama " + this.nombre1 + " y tiene " + this.edad1 + " años, y su calificacion es " + this.calificacion1
+    }
+};
+console.log(alumno1);
+
+
+console.log("-------------------------------------------------");
+let alumno2 = {nombre2: "GABO", edad2: 23, calificacion2: {matematicas: 100, ingles: 90}};
+
+console.log (alumno2);
+
+console.log("\nFin")
