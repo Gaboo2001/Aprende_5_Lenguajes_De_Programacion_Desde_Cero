@@ -1,0 +1,9 @@
+string nombre = "Gabriel";
+
+int edad = 23;
+
+Console.WriteLine("Me llamo " + nombre + " y tengo " + edad + " años");
+Console.WriteLine("Tengo " +edad + " años y me llamo " +nombre);
+
+int edad_sigiente = edad + 1;
+Console.WriteLine("El siguiente año tendre " +edad_sigiente);

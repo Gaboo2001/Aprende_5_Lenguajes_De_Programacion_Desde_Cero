@@ -1,0 +1,9 @@
+int edad = 27;
+edad = 28;
+Console.WriteLine(edad);
+
+/*Uso con constantes*/
+
+const int edad1 = 90;
+const string nombre = "Gabriel";
+

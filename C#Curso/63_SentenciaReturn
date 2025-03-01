@@ -1,0 +1,8 @@
+static double Media(double num1, double num2)
+{
+    Console.WriteLine("Este mensaje se muestra");
+    return (num1 + num2) / 2;
+    Console.WriteLine("Este mensje ya no se muestra"); /*TODO LO QUE ESTA DESPUES DEL RETURN YA NO SE MUESTRA*/
+}
+double valor_medio = Media(8.0, 6.0);
+Console.WriteLine(valor_medio);

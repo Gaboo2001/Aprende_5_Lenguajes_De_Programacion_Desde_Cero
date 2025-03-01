@@ -1,0 +1,16 @@
+int[] numeros = { 1,2,3,4,55,6,67,7};
+for (int i =0; i<numeros.Length; i++)
+{
+    Console.WriteLine(numeros[i]);
+}
+
+Console.WriteLine("------------------------");
+
+int[,] num = { {11,4334,654 },{133,123,554 },{1231,423,5331} };
+for(int j =0; j<3; j++)
+{
+    for (int i = 0; i < 3; i++)
+    {
+        Console.WriteLine(num[j,i]);
+    }
+}

@@ -1,0 +1,43 @@
+bool valorBooleano = 10 > 3;
+Console.WriteLine(valorBooleano);
+
+bool valorBooleano1 = 10 < 3;
+Console.WriteLine(valorBooleano1);
+
+bool valorBooleano2 = 10 >= 3;
+Console.WriteLine(valorBooleano2);
+
+bool valorBooleano3 = 10 <= 3;
+Console.WriteLine(valorBooleano3);
+
+bool valorBooleano4 = 8 == 3;
+Console.WriteLine(valorBooleano4);
+
+bool valorBooleano5 = 8 == 8;
+Console.WriteLine(valorBooleano5);
+
+bool valorBooleano6 = 8 != 8;
+Console.WriteLine(valorBooleano6);
+
+bool valorBooleano7 = 8 != 1;
+Console.WriteLine(valorBooleano7);
+
+/*OPERADORES LOGICOS*/
+/* and or not*/
+
+bool valorBooleano8 = (10 > 3) && (10 > 4); /*Ambas se deben cumplir para true*/
+Console.WriteLine(valorBooleano8);
+
+bool valorBooleano9 = (10 < 3) && (10 > 4); /*Ambas se deben cumplir para true*/
+Console.WriteLine(valorBooleano9);
+
+/*PAra OR se debe de cumplir almenos una condicion para tue*/
+bool valorBooleano10 = (10 < 3) || (10 > 4); /*la primera no se comple pero la segunda si*/
+Console.WriteLine(valorBooleano10);
+
+/*El not devuelve lo contrario de la condicion e sdecir si una condicion es true devuleve folse*/
+
+bool valorBooleano11 = !(10 < 3);
+Console.WriteLine(valorBooleano11);
+bool valorBooleano12 = !(10 > 3);
+Console.WriteLine(valorBooleano12);

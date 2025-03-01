@@ -1,0 +1,15 @@
+using CURSOC;
+
+Cla22222ss1 alumno1 = new Cla22222ss1("Juan", 25);
+
+Console.WriteLine(alumno1.nombre);
+Console.WriteLine(alumno1.edad);
+
+
+
+en la otra clase use esto
+ public Cla22222ss1(string Nombre, int Edad)
+ {
+     nombre = Nombre;
+     edad = Edad;
+ }

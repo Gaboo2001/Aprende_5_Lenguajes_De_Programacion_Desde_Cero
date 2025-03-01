@@ -1,0 +1,5 @@
+int numeroEnrtero = 5;
+double numeroDecimal = 16.0;
+string texto = "HOLAFE44";
+char letra= 'A';
+bool aprobado = false;

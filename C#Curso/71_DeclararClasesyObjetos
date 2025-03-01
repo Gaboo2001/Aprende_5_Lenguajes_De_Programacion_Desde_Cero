@@ -1,0 +1,30 @@
+using CURSOC;
+
+Cla22222ss1 alumno1 = new Cla22222ss1();
+alumno1.nombre = "Juan";
+alumno1.edad = 25;
+alumno1.nota = 7.2;
+alumno1.grado = "arquitectura";
+
+Console.WriteLine(alumno1.nombre);
+Console.WriteLine(alumno1.grado);
+
+
+
+en la otra clase se hixo esto
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CURSOC
+{
+    internal class Cla22222ss1
+    {
+        public string nombre;
+        public int edad;
+        public double nota;
+        public string grado;
+    }
+}

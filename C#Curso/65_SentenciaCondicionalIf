@@ -1,0 +1,26 @@
+
+int num = 11;
+if (num % 2==0)
+{
+    Console.WriteLine("El numero "+num+ " Es par");
+}
+else
+{
+    Console.WriteLine("El numero es impar");
+}
+
+Console.WriteLine("------------------------------------------------------");
+
+int num1 = 1;
+int num2 = 10;
+
+if (num1 > num2)
+{
+    Console.WriteLine("El numero " +num1+ " Es mayor que el numero " +num2);
+} else if (num1 < num2)
+{
+    Console.WriteLine("El numero " + num2 + " Es mayor que el numero " + num1);
+} else
+{
+    Console.WriteLine("Ambos numeros son iguales");
+}

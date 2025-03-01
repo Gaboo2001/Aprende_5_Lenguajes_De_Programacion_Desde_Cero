@@ -1,0 +1,28 @@
+/*Forma 1*/
+string texto1 = "Hola";
+string texto2 = "Gabo";
+
+string texto = texto1 + " " +texto2;
+Console.WriteLine(texto);
+
+/*Forma 2*/
+string texto3 = "Hola";
+string texto4 = "Gabo";
+
+string textoo = string.Concat(texto1, " ", texto2);
+Console.WriteLine(textoo);
+
+/*Forma 3*/
+string nombre = "Gabriel";
+string apellido = "Hernandez";
+string frase = $"Mi nombre es {nombre} y mi apellido es {apellido}";
+Console.WriteLine(frase);
+
+/*Forma 4*/
+string nombre1 = "Gabriel";
+string apellido1 = "Hernandez";
+string frase1 = "Mi nombre es "+nombre1+ " y mi apellido es "+apellido1;
+Console.WriteLine(frase1);
+Console.WriteLine(frase1.ToLower());
+Console.WriteLine(frase1.ToUpper());
+Console.WriteLine(frase1.Contains("e"));

@@ -1,0 +1,20 @@
+static void HolaMundo()
+{
+    Console.WriteLine("Hola Mundo!");
+
+}
+HolaMundo();
+
+static void Saludar(string nombre)
+{
+    Console.WriteLine("Hola " + nombre);
+
+}
+Saludar("Gabo");
+
+static void Oracion(string nombre1, string apellido, int edad)
+{
+    Console.WriteLine("Hola " +nombre1+ " te apellidas " +apellido+ " y tienes " +edad+ " años");
+}
+Oracion("gabriel", "Hernandez", 25);
+Oracion("Viane

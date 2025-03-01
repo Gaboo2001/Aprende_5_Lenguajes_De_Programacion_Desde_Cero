@@ -1,0 +1,15 @@
+double num = 100.0;
+while (num >= 1)
+{
+    Console.WriteLine(num);
+    num = num / 2;
+}
+
+Console.WriteLine("------------------------------------------------------------");
+
+int num1 = 1000;
+do
+{
+    Console.WriteLine(num1);
+    num1 =num1 / 2;
+} while (num1 >= 1);
